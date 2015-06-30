@@ -1,8 +1,7 @@
 # User-defined-data-aquisition-protocol-between-linux-and-ARM
 
-    The process of data transmission and receiption between ARM Microcontroller and Linux 
-    host machine is implemented over standard UART. A user defined protocol is implemented 
-    over standard UART protocol for data aquisition.
+    The process of data transmission and receiption between ARM Microcontroller and Linux host machine is 		       implemented over standard UART. A user defined protocol is implemented over standard UART protocol for 
+    data aquisition.
     
     
                     LED
@@ -33,8 +32,9 @@
 *   frame is the hex file
 
 
-    Linux host machine can read/write the data from/to ARM Microcontroller(LPC2377/78) on 
-    standard UART by sending these control bytes to ARM Microcontroller
+    Linux host machine can read/write the data from/to ARM Microcontroller(LPC2377/78) on standard UART 
+    by sending these control bytes to ARM Microcontroller
+    
 *    Write mode -- writes the data to the output devices on MCB2300
 
         LED-----0     -- set these values in identifier byte
@@ -49,8 +49,8 @@
   
   1)  Create a project on Keil tool and add all the files from ARM_LPC2377_78_MCB2300 directory
   
-  *   Note: lcd.c, serial.c and retarget.c are defined in "LPC23xx.H" header file (so not necessary 
-  to define again in "library.h" file)
+  *   Note: lcd.c, serial.c and retarget.c are defined in "LPC23xx.H" header file (so not necessary to 
+  define again in "library.h" file)
   
   2) Compile the program and upload it to MCB2300
     
