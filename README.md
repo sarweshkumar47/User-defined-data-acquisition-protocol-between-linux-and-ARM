@@ -16,7 +16,7 @@
     	Keil V4
     	
     Hardware:
-    	LPC2378/88
+    	LPC2378/88 (MCB2300)
     
     Communication between a linux host machine and ARM LPC2377/78 Microncontroller based MCB2300 
     
