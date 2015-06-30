@@ -4,12 +4,14 @@
     machine is implemented over standard UART. A user defined protocol is implemented over standard 
     UART protocol for data aquisition.
     
+    
                     LED
                      |                      UART                        (Controller)
                     ARM     <---------------------------------->     Linux host machine
                 /        \         User defined protocol       (Read/write the data from/to ARM)
             LCD      Analog sensor
             
+    
     Communication between a linux host machine and ARM LPC2377/78 Microncontroller based MCB2300board 
     
     User defined protocol on a standard UART/RS-232 protocol:
