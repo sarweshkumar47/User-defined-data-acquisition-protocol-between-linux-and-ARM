@@ -52,7 +52,7 @@
         ADC-----0 (default)  (Analog sensor / pot is attached) -- set this value in identifier byte
         
   
-  --> Execution on ARM:
+  #### --> Execution on ARM:
   
   1)  Create a project on Keil tool and add all the files from ARM_LPC2377_78_MCB2300 directory
   
@@ -62,7 +62,7 @@
   2) Compile the program and upload it to MCB2300
     
   
-  --> Execution on Linux machine:
+  #### --> Execution on Linux machine:
 
   1) Compile linux_arm_customprotocol_uart.c file in Linux_Host_Machine folder using gcc
   
