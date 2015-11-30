@@ -1,8 +1,8 @@
 # User-defined-data-acquisition-protocol-between-linux-and-ARM
 
-    The process of data transmission and reception between ARM Microcontroller and Linux host machine
-    is implemented over standard UART. A user defined protocol is implemented over standard UART 
-    protocol for data acquisition.
+   The process of data transmission and reception between ARM Microcontroller and Linux host machine is 
+   implemented over standard UART. A user defined protocol is implemented over standard UART protocol for data
+   acquisition.
     
     
                     LED
