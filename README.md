@@ -33,9 +33,11 @@
     Example: fe|01|08|01|00000000|0102030405060708|ff
 *   Create an hex data file according to the above described protocol
 
-           $ echo fe010801000000000102030405060708ff | xxd -r -p > frame
-           $ hexdump -C frame
-           
+ ```bash
+  $ echo fe010801000000000102030405060708ff | xxd -r -p > frame
+  $ hexdump -C frame
+ ```
+
 *   frame is the hex file
 
 
@@ -66,12 +68,16 @@
 
   1) Compile linux_arm_customprotocol_uart.c file in Linux_Host_Machine folder using gcc
   
-            $ gcc linux_arm_customprotocol_uart.c -o test
+ ```bash
+  $ gcc linux_arm_customprotocol_uart.c -o test
+ ```
             
   2) Create an hex file using the above described commands and execute the compiled binary file using
   the below command
-    
-            $ ./test /dev/ttyS0 frame
+  
+ ```  
+  $ ./test /dev/ttyS0 frame
+ ```
             
   
   
